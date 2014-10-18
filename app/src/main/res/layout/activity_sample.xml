@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3">
+
+    <TextView
+        android:text="Integer Value:"/>
+
+    <EditText
+        android:id="@+id/etInteger"
+        android:hint="Enter integer value"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btInsertInteger"
+        android:text="Insert"/>
+
+    <Button android:text="Load Integer Value"
+        android:id="@+id/btLoadInteger"/>
+
+    <TextView
+        android:id="@+id/tvIntegerValue"
+        android:layout_columnSpan="2"/>
+
+
+</GridLayout>
